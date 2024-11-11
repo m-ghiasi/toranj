@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  direction: rtl;
+}
+body {
+}
+.flex {
+  display: flex;
+}
+.container {
+  margin: 0 auto;
+}
+.align-item {
+  align-items: center;
+}
+
+/* header */
+
+header {
+  max-width: 800px;
+  box-shadow: 0px 8px 24px 0px #00000029;
+  backdrop-filter: blur(16px);
+  height: 67px;
+  border-radius: 0 0 24px 24px;
+}
+header nav {
+  width: 100%;
+}
+header ul {
+  justify-content: space-evenly;
+}
+header ul li {
+  list-style: none;
+  cursor: pointer;
+}
+header ul li  a {
+    text-decoration: none;
+    font-size: 18px;
+  font-weight: 700;
+  color: black;
+  border: none;
+
+}
+header ul li a:hover {
+    border-bottom: 1px solid #239D60;
+    
+
+    
+       
+}
