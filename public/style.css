@@ -17,6 +17,23 @@ body {
 .align-item {
   align-items: center;
 }
+.order-btn {
+  width: 96px;
+height:  29px;
+padding: 4px 8px 4px 8px;
+/* gap: 10px; */
+border-radius: 32px 16px 32px 16px;
+opacity: 0px;
+background: #239D60;
+border: none;
+color: white;
+font-size: 12px;
+
+
+}
+.show-all-btn {
+  
+}
 
 /* header */
 
@@ -100,9 +117,49 @@ box-shadow: 0px 16px 32px 0px #239D607A;
 .special-sell {
   width: 1124px;
   height: 406px;
-  background: linear-gradient(270deg, #FF4F17 0%, #E73700 60.42%);
+  
   border-radius: 32px 160px 32px 32px;
   margin-top: 20px;
+  align-items: center;
 
 }
+.orange {
+  background: linear-gradient(270deg, #FF4F17 0%, #E73700 60.42%);
+}
+.fastival-sell{
+  width: 196px;
+  padding: 10px;
+}
+.sell-detail {
+  flex-direction: column;
+  
+}
+.arrow button {
+  border: none;
+  border-radius: 12px;
+  background-color: #FFFFFF;
+}
+.order {
+  font-size: 12px;
+  color: white;
+
+}
+.product-discrib-div {
+  background-color: #FFFFFF;
+  width: 196px ;
+  height: 358px;
+  padding: 16px;
+  border-radius: 16px;
+  flex-direction: column;
+}
+.germany-factor-products  {
+  justify-content: center;
+  margin: 25px 0;
+  gap: 20px;
+}
+.green {
+  background: linear-gradient(270deg, #239D60 0%, #A3DE83 60.42%);
+
+}
+
 
