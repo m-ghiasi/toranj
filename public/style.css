@@ -31,11 +31,9 @@ font-size: 12px;
 
 
 }
-.show-all-btn {
-  
-}
+.show-all-btn {}
 
-/* header */
+ /* header */
 
 header {
   max-width: 1024px;
@@ -161,5 +159,99 @@ box-shadow: 0px 16px 32px 0px #239D607A;
   background: linear-gradient(270deg, #239D60 0%, #A3DE83 60.42%);
 
 }
+.banner img {
+  background-image: url(./assets/bairds-banner.svg);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.services {
+  justify-content: row;
+  width: 1123px;
+  height: 280px;
+  justify-content: space-between;
+
+}
+.services-part {
+  width: 319px;
+  height: 280px;
+  padding: 24px ;
+  border-radius: 80px 32px 80px 32px;
+  border: 1px 0px 0px 0px;
+  border: 1px solid #239D60;
+  flex-direction: column;
+  align-items: center;
+
+}
+.services-part img {
+  background: #A3DE8352;
+  border-radius: 32px;
+
+}
+.services-part span {
+  font-size: 16px;
+  font-weight: 700;
+}
+.services-part p {
+  font-size: 16px;
+  color: #707070;
+
+}
+.papers {
+  width: 1124px;
+  height: 512px;
+  background: #212125;
+  border-radius: 32px 160px 32px 32px;
+  margin: 20px auto;
+  padding: 20px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+}
+.papers-details {
+  width: 526px;
+}
+.papers-details h3{
+  color: white;
+
+}
+.papers-details div span {
+  color: white;
+  font-size: 14px;
+  font-weight: 300;
+}
+.papers-sec {
+  background-color: #FDFDFD;
+  width: 526px;
+  height: 144px;
+  border-radius: 16px;
+  padding: 15px;
+}
+.papers-sec img {
+  border-radius: 16px;
+}
+.paper-content {
+  padding-right: 15px;
+}
+.paper-content h4 {
+  font-weight: 700;
+  font-size: 16px;
+
+}
+.paper-content p {
+  color: #707070;
+  font-size: 13px;
+
+}
+.edit-section {
+  display: flex;
+  justify-content: space-between;
+}
+.edit-date {
+  color: #B3B3B3;
+  font-size: 10px;
+ 
+}
+
+
 
 
