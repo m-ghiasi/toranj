@@ -159,6 +159,9 @@ header ul li a:hover {
   background-image: url(./assets/bairds-banner.svg);
   margin-top: 20px;
   margin-bottom: 20px;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .services {
   justify-content: row;
