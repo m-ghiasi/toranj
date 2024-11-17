@@ -641,7 +641,7 @@
               پرنده خود را حتما در بازه های زمانی مختلف به پزشک مخصوص نشان داده
               و از سلامت وی مطمین شوید...
             </p>
-            <div class="edit-section" >
+            <div class="edit-section">
               <span class="flex edit-date align-item"
                 ><img
                   src="./public/assets/Edit.svg"
@@ -655,7 +655,89 @@
           </div>
         </div>
       </div>
+      <div class="partners container">
+        <h2>شرکای تجاری ما</h2>
+        <img src="./public/assets/Line 4.svg" width="1124" alt="" />
+        <div class="partners-box">
+          <div id="my-keen-slider-partners" class="keen-slider">
+            <div class="keen-slider__slide number-slide1 partner-one">
+              <img
+                src="./public/assets/rv 1.svg"
+                width="196"
+                height="61"
+                alt=""
+              />
+              <span>ترنج بهار پارس</span>
+              <p>نماینده رسمی کارخانه نکتون آلمان</p>
+              <button class="order-btn">بیشتر بدانید</button>
+            </div>
+
+            <div class="keen-slider__slide number-slide1 partner-one">
+              <img
+                src="./public/assets/Frame 28 (1).svg"
+                width="196"
+                height="61"
+                alt=""
+              />
+              <span>ترنج بهار پارس</span>
+              <p>نماینده رسمی کارخانه نکتون آلمان</p>
+              <button class="order-btn">بیشتر بدانید</button>
+            </div>
+            <div class="keen-slider__slide number-slide1 partner-one">
+              <img
+                src="./public/assets/Frame 28.svg"
+                width="196"
+                height="61"
+                alt=""
+              />
+              <span>ترنج بهار پارس</span>
+              <p>نماینده رسمی کارخانه نکتون آلمان</p>
+              <button class="order-btn">بیشتر بدانید</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="notice flex">
+        <img
+          src="./public/assets/fxemoji_megaphone.svg"
+          width="142"
+          height="142"
+          alt=""
+        />
+        <div class="notices container">
+          <div class="notice-content notice-d">
+            <div class="membership">
+              <h4>عضویت در<span>خبرنامه</span> </h4>
+              <p>شما با عضویت در خبرنامه ترنج بهار پارس از جدیدترین محصولات این مجموعه باخبر می شوید.</p>
+            </div>
+            <div class="btns">
+              
+              <button class="white-btn fist-btn">پست الکترونیکی خود را وارد کنید</button>
+              <button class="order-btn second-btn " >ارسال</button>
+            </div>
+            
+
+
+          </div>
+          <div class="notice-shadow notice-d"></div>
+        </div>
+      </div>
     </main>
+
+    <footer class="flex">
+      <div class="flex">
+        <div class="contact-number"></div>
+        <div class="about-us"></div>
+      </div>
+      <div class="low-notic">
+        <p></p>
+        <div class="social-link"></div>
+      </div>
+      <img src="./public/assets/jamie-rochester-bg8o3ZWwY3E-unsplash copy 1.svg" width="505" height="640" alt="">
+    </footer>
+
+
 
     <script type="module" src="/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/keen-slider@6.8.5/keen-slider.min.js"></script>
@@ -690,6 +772,14 @@
         slides: {
           perView: 4,
           spacing: 10,
+        },
+      });
+    </script>
+    <script>
+      var slider = new KeenSlider("#my-keen-slider-partners", {
+        slides: {
+          perView: 3,
+          spacing: 15,
         },
       });
     </script>
