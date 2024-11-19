@@ -28,11 +28,12 @@ body {
   color: white;
   font-size: 12px;
 }
+
 .white-btn {
   width: 249px;
   height: 29px;
   padding: 4px 8px 4px 8px;
-  /* gap: 10px; */
+
   border-radius: 32px 16px 32px 16px;
   opacity: 0px;
   background: white;
@@ -41,6 +42,27 @@ body {
   font-size: 12px;
 }
 .show-all-btn {
+  width: 82px;
+  height: 29px;
+  padding: 4px 8px 4px 8px;
+  /* gap: 10px; */
+  border-radius: 32px 16px 32px 16px;
+  background: black;
+  border: none;
+  color: white;
+  font-size: 12px;
+  position: absolute;
+}
+.white-arr-btn {
+  width: 120px;
+  height: 29px;
+  padding: 4px 8px 4px 8px;
+  border-radius: 32px 16px 32px 16px;
+  background: white;
+  border: none;
+  font-size: 12px;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 /* header */
@@ -76,8 +98,10 @@ header ul li a:hover {
 /* main */
 
 .main-content {
-  justify-content: center;
-  margin: 60px 0;
+  height: 750px;
+
+  width: 1124px;
+  position: relative;
 }
 .main-text {
   width: 628px;
@@ -106,12 +130,15 @@ header ul li a:hover {
   border: none;
   box-shadow: 0px 16px 32px 0px #239d607a;
 }
-.baird img {
-  /* position: absolute; */
+.baird {
+  position: absolute;
+  top: 40px;
+  left: 30px;
 }
 .slider {
   width: 1124px;
 }
+
 .special-sell {
   width: 1124px;
   height: 406px;
@@ -126,6 +153,7 @@ header ul li a:hover {
 .fastival-sell {
   width: 196px;
   padding: 10px;
+  flex-direction: column;
 }
 .sell-detail {
   flex-direction: column;
@@ -308,6 +336,7 @@ header ul li a:hover {
   top: 0;
   transform: rotate(-5deg);
   right: 30px;
+  border: none;
 }
 .btns {
   width: 326px;
@@ -422,22 +451,20 @@ footer img {
 .green-line {
   position: absolute;
   z-index: 2;
-  bottom: 80px;;
+  bottom: 80px;
 }
 .law-notic {
-/* position: absolute; */
+  /* position: absolute; */
 
-/* margin-top: 50px; */
-height: 76px;
+  /* margin-top: 50px; */
+  height: 76px;
 }
 
 .law-notic-part {
   position: absolute;
   z-index: 3;
-  bottom: 38px;
-  gap:40px;
-  
-  
+  bottom: 30px;
+  gap: 40px;
 }
 .law-notic-part p {
   font-size: 14px;
@@ -445,8 +472,35 @@ height: 76px;
 }
 .social-link {
   /* margin-top: 50px; */
-  width: 172px ;
+  width: 172px;
   gap: 20px;
-  
+  z-index: 10;
 }
-
+.social-link ul li {
+  display: flex;
+  margin: 0px 5px;
+  width: 24px;
+  height: 24px;
+}
+.social-link ul li :hover {
+  border-bottom: 2px solid #239d60;
+}
+.social-size {
+  width: 20px;
+  height: 20px;
+}
+.linked-in {
+  background-image: url(./assets/Group\ 116.svg);
+}
+.youtube {
+  background-image: url(./assets/Vector\\(1\).svg);
+}
+.instagram {
+  background-image: url(./assets/Vector\\(2\).svg);
+}
+.tweeter {
+  background-image: url(./assets/Vector\\(3\).svg);
+}
+.facebook {
+  background-image: url(./assets/Vector\\(4\).svg);
+}
