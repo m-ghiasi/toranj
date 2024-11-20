@@ -247,14 +247,41 @@ header ul li a:hover {
   padding: 20px;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  margin-top: 150px;
+  margin-top: 110px;
   margin-bottom: 110px;
 }
 .papers-details {
   width: 526px;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px 30px 10px 10px;
 }
+
 .papers-details h3 {
   color: white;
+  font-size: 36px;
+  font-weight: 800;
+}
+.end-dicoration {
+  border-bottom: 2px solid #239D60;
+  /* box-shadow: 0px 0px 8px 0px #00FF75; */
+ 
+}
+.p-btn {
+  padding: 5px 0px;
+  justify-content: space-between;
+}
+.p-btn p {
+  font-size: 14px;
+  font-weight: 300;
+}
+.paper-btn {
+  /* width: 326px; */
+  display: flex;
+  position: relative;
+}
+.paper-btn .show-all-btn {
+  background-color: #239D60;
 }
 .papers-details div span {
   color: white;
@@ -433,14 +460,14 @@ header ul li a:hover {
 .par-5 {
   position: absolute;
   right: -66px;
-  top: 3977px;
+  top: 4377px;
   transform: rotate(225deg);
   opacity: 60%;
 }
 .background-birds {
   position: absolute;
   right: 0;
-  top: 3430px;
+  top: 3550px;
 }
 .titr {
   position: absolute;
