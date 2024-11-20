@@ -190,6 +190,9 @@ header ul li a:hover {
 .green {
   background: linear-gradient(270deg, #239d60 0%, #a3de83 60.42%);
 }
+.banner {
+  margin-bottom: 150px;
+}
 .banner img {
   background-image: url(./assets/bairds-banner.svg);
   margin-top: 20px;
@@ -203,6 +206,15 @@ header ul li a:hover {
   width: 1123px;
   height: 280px;
   justify-content: space-between;
+}
+.services-back-design {
+  position: absolute;
+  width: 760px;
+  height: 408px;
+  top: 3200px;
+  left: 0;
+  background: #239d601a;
+  border-radius: 160px 32px 160px 32px;
 }
 .services-part {
   width: 319px;
@@ -235,6 +247,8 @@ header ul li a:hover {
   padding: 20px;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  margin-top: 150px;
+  margin-bottom: 110px;
 }
 .papers-details {
   width: 526px;
@@ -281,6 +295,7 @@ header ul li a:hover {
   text-align: center;
   margin-top: 60px;
   margin-bottom: 30px;
+  position: relative;
 }
 .partners h2 {
   font-size: 32px;
@@ -379,13 +394,12 @@ header ul li a:hover {
   width: 32px;
   height: 32px;
   position: absolute;
-  top:0;
+  top: 0;
   right: 10px;
   padding: 4px;
   background-image: url(./assets/up.png);
   background-repeat: no-repeat;
   background-position: center;
- 
 }
 
 /* background images */
@@ -399,10 +413,8 @@ header ul li a:hover {
 .par-2 {
   position: absolute;
   top: 1655px;
- right: 0;
+  right: 0;
   transform: rotate(0deg);
-  
-  
 }
 .par-3 {
   position: absolute;
@@ -420,17 +432,23 @@ header ul li a:hover {
 }
 .par-5 {
   position: absolute;
-  right:-66px;
+  right: -66px;
   top: 3977px;
   transform: rotate(225deg);
   opacity: 60%;
 }
 .background-birds {
   position: absolute;
-  right:0;
+  right: 0;
   top: 3430px;
 }
+.titr {
+  position: absolute;
+  align-items: center;
+  top: -60px;
 
+  
+}
 
 /* footer */
 
@@ -562,6 +580,7 @@ footer img {
 .youtube {
   background-image: url(./assets/Vector\ \(1\).svg);
 }
+
 .instagram {
   background-image: url(./assets/Vector\ \(2\).svg);
 }
@@ -569,7 +588,7 @@ footer img {
   background-image: url(./assets/Vector\ \(3\).svg);
 }
 .facebook {
-  background-image: url(./assets/Vector\ \(4\).svg)
+  background-image: url(./assets/Vector\ \(4\).svg);
 }
 #my-keen-slider-second div {
   width: 196px;
