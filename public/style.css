@@ -6,6 +6,7 @@
   font-family: "IRANYekan", sans-serif;
 }
 body {
+  overflow-x: hidden;
 }
 .flex {
   display: flex;
@@ -138,6 +139,12 @@ header ul li a:hover {
 .slider {
   width: 1124px;
 }
+.slider-baird {
+  border-radius: 35px;
+}
+/* .keen-slider {
+  direction: ltr;
+} */
 
 .special-sell {
   width: 1124px;
@@ -301,10 +308,11 @@ header ul li a:hover {
 }
 .notice {
   flex-direction: column;
+  width: 1124px;
 
   /* position: absolute;
   left: 455px; */
-  margin-right: 100px;
+  /* margin-right: 100px; */
 }
 .notice-d {
   width: 794px;
@@ -364,6 +372,65 @@ header ul li a:hover {
 .membership h4 span {
   color: #239d60;
 }
+
+.up-btn {
+  background-color: black;
+  border-radius: 12px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top:0;
+  right: 10px;
+  padding: 4px;
+  background-image: url(./assets/up.png);
+  background-repeat: no-repeat;
+  background-position: center;
+ 
+}
+
+/* background images */
+.par {
+  position: absolute;
+  left: -83px;
+  top: 1352px;
+  transform: rotate(148deg);
+  opacity: 90%;
+}
+.par-2 {
+  position: absolute;
+  top: 1655px;
+ right: 0;
+  transform: rotate(0deg);
+  
+  
+}
+.par-3 {
+  position: absolute;
+  left: -10px;
+  top: 2000px;
+  transform: rotate(40deg);
+  opacity: 60%;
+}
+.par-4 {
+  position: absolute;
+  left: 0;
+  top: 3677px;
+  transform: rotate(4deg);
+  opacity: 60%;
+}
+.par-5 {
+  position: absolute;
+  right:-66px;
+  top: 3977px;
+  transform: rotate(225deg);
+  opacity: 60%;
+}
+.background-birds {
+  position: absolute;
+  right:0;
+  top: 3430px;
+}
+
 
 /* footer */
 
@@ -493,14 +560,17 @@ footer img {
   background-image: url(./assets/Group\ 116.svg);
 }
 .youtube {
-  background-image: url(./assets/Vector\\(1\).svg);
+  background-image: url(./assets/Vector\ \(1\).svg);
 }
 .instagram {
-  background-image: url(./assets/Vector\\(2\).svg);
+  background-image: url(./assets/Vector\ \(2\).svg);
 }
 .tweeter {
-  background-image: url(./assets/Vector\\(3\).svg);
+  background-image: url(./assets/Vector\ \(3\).svg);
 }
 .facebook {
-  background-image: url(./assets/Vector\\(4\).svg);
+  background-image: url(./assets/Vector\ \(4\).svg)
+}
+#my-keen-slider-second div {
+  width: 196px;
 }
