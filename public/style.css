@@ -229,6 +229,7 @@ header ul li a:hover {
 }
 .green {
   background: linear-gradient(270deg, #239d60 0%, #a3de83 60.42%);
+  padding: 0px 10px;
 }
 .banner {
   margin-bottom: 150px;
@@ -249,9 +250,9 @@ header ul li a:hover {
 }
 .services-back-design {
   position: absolute;
-  width: 760px;
+  width: 675px;
   height: 408px;
-  top: 3200px;
+  top: 3130px;
   left: 0;
   background: #239d601a;
   border-radius: 160px 32px 160px 32px;
