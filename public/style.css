@@ -28,6 +28,13 @@ body {
   border: none;
   color: white;
   font-size: 12px;
+  cursor: pointer;
+}
+.order-btn:hover {
+  opacity: 70%;
+}
+.hover:hover {
+  opacity: 70%;
 }
 
 .white-btn {
@@ -54,6 +61,7 @@ body {
   font-size: 12px;
   position: absolute;
   left: 40px;
+  cursor: pointer;
 }
 .white-arr-btn {
   width: 120px;
@@ -65,6 +73,7 @@ body {
   font-size: 12px;
   justify-content: flex-end;
   align-items: center;
+  cursor: pointer;
 }
 
 /* header */
@@ -131,7 +140,17 @@ header ul li a:hover {
   color: #ffffff;
   border: none;
   box-shadow: 0px 16px 32px 0px #239d607a;
+  cursor: pointer;
 }
+/* .product-btn:hover {
+  opacity: 70%;
+} */
+.product-btn:active {
+  background-color:#246D42 ;
+  opacity: 100%;
+}
+
+
 .baird {
   position: absolute;
   top: 40px;
@@ -440,6 +459,12 @@ header ul li a:hover {
   z-index: 1;
   height: 40px;
   font-size: 16px;
+}
+.btns input {
+  direction: ltr;
+}
+.btns input:focus{
+  outline: none;
 }
 .second-btn {
   left: 8px;
