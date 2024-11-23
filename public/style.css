@@ -157,6 +157,10 @@ header ul li a:hover {
 }
 .orange {
   background: linear-gradient(270deg, #ff4f17 0%, #e73700 60.42%);
+  box-shadow: 0px 0px 24px 0px #0000003D inset;
+  padding: 0px 10px;
+
+  
 }
 .fastival-sell {
   width: 250px;
@@ -188,11 +192,20 @@ header ul li a:hover {
   width: 100%;
   align-items: flex-end;
   direction: ltr;
+  display: flex;
+  gap: 5px;
 }
 .arrow button {
   border: none;
   border-radius: 12px;
   background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  
+}
+.arrow button:hover {
+  opacity: 70%;
 }
 .order {
   font-size: 12px;
