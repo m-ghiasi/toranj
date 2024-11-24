@@ -183,6 +183,46 @@ header ul li a:hover {
 
   
 }
+.timer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+
+
+}
+.time {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 300;
+  opacity: 100%;
+}
+.timer div {
+  display: flex;
+  flex-direction: column;
+  width: 40px;
+  height: 70px;
+  background-color: #fb6f42;
+ 
+  
+  
+  border-radius: 8px;
+}
+.number {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 800;
+  opacity: 100%;
+}
+.dut {
+  font-size: 24px;
+  font-weight: 800;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  width: 8px;
+  
+}
 .fastival-sell {
   width: 250px;
   flex-direction: column;
@@ -199,7 +239,9 @@ header ul li a:hover {
 }
 .sell-detail {
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
+  height: 174px;
+
  
   align-items: center;
   
@@ -269,9 +311,9 @@ header ul li a:hover {
 }
 .services-back-design {
   position: absolute;
-  width: 675px;
+  width: 50%;
   height: 408px;
-  top: 3130px;
+  top: 3230px;
   left: 0;
   background: #239d601a;
   border-radius: 160px 32px 160px 32px;
